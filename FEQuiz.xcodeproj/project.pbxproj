@@ -7,15 +7,85 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C9E57FBDAD7BB5EAC48200A /* Pods_FEQuiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73A1E778969ABFC6D313A67C /* Pods_FEQuiz.framework */; };
+		C73E767F279161FA00263402 /* QuizTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73E767E279161FA00263402 /* QuizTestViewController.swift */; };
+		C73E76872791CEAA00263402 /* quiz2.csv in Resources */ = {isa = PBXBuildFile; fileRef = C73E76862791CEAA00263402 /* quiz2.csv */; };
+		C73E768B2791CEC700263402 /* quiz4.csv in Resources */ = {isa = PBXBuildFile; fileRef = C73E768A2791CEC700263402 /* quiz4.csv */; };
+		C73E768D2791CF1600263402 /* SelectQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73E768C2791CF1600263402 /* SelectQuizViewController.swift */; };
+		C73E768F2791D3AF00263402 /* quiz3.csv in Resources */ = {isa = PBXBuildFile; fileRef = C73E768E2791D3AF00263402 /* quiz3.csv */; };
+		C73E76912791D3CA00263402 /* quiz.csv in Resources */ = {isa = PBXBuildFile; fileRef = C73E76902791D3CA00263402 /* quiz.csv */; };
+		C7406D992797A7D4009140C3 /* fall25.csv in Resources */ = {isa = PBXBuildFile; fileRef = C7406D982797A7D3009140C3 /* fall25.csv */; };
+		C7406D9B2797A7E6009140C3 /* spring25.csv in Resources */ = {isa = PBXBuildFile; fileRef = C7406D9A2797A7E6009140C3 /* spring25.csv */; };
+		C7406D9D2797A7F4009140C3 /* fall24.csv in Resources */ = {isa = PBXBuildFile; fileRef = C7406D9C2797A7F4009140C3 /* fall24.csv */; };
+		C7406D9F2797A802009140C3 /* spring24.csv in Resources */ = {isa = PBXBuildFile; fileRef = C7406D9E2797A802009140C3 /* spring24.csv */; };
+		C7406DA12798337E009140C3 /* fall23.csv in Resources */ = {isa = PBXBuildFile; fileRef = C7406DA02798337E009140C3 /* fall23.csv */; };
+		C7406DA32798338E009140C3 /* special23.csv in Resources */ = {isa = PBXBuildFile; fileRef = C7406DA22798338E009140C3 /* special23.csv */; };
+		C7406DA52798339F009140C3 /* fall22.csv in Resources */ = {isa = PBXBuildFile; fileRef = C7406DA42798339F009140C3 /* fall22.csv */; };
+		C7406DA7279833AD009140C3 /* spring22.csv in Resources */ = {isa = PBXBuildFile; fileRef = C7406DA6279833AD009140C3 /* spring22.csv */; };
+		C7479FC92793C0F900E44912 /* fall1.csv in Resources */ = {isa = PBXBuildFile; fileRef = C7479FC82793C0F900E44912 /* fall1.csv */; };
+		C7479FCB27942E5500E44912 /* spring31.csv in Resources */ = {isa = PBXBuildFile; fileRef = C7479FCA27942E5400E44912 /* spring31.csv */; };
+		C7479FCD27946B3300E44912 /* fall30.csv in Resources */ = {isa = PBXBuildFile; fileRef = C7479FCC27946B3300E44912 /* fall30.csv */; };
+		C74A55752798F7D600CC341F /* fall21.csv in Resources */ = {isa = PBXBuildFile; fileRef = C74A55742798F7D600CC341F /* fall21.csv */; };
+		C74A55772799069B00CC341F /* spring21.csv in Resources */ = {isa = PBXBuildFile; fileRef = C74A55762799069B00CC341F /* spring21.csv */; };
+		C74DE6062796664700902AF3 /* fall27.csv in Resources */ = {isa = PBXBuildFile; fileRef = C74DE6052796664700902AF3 /* fall27.csv */; };
+		C74DE6082796666300902AF3 /* spring27.csv in Resources */ = {isa = PBXBuildFile; fileRef = C74DE6072796666300902AF3 /* spring27.csv */; };
+		C74DE60A2796667600902AF3 /* fall26.csv in Resources */ = {isa = PBXBuildFile; fileRef = C74DE6092796667600902AF3 /* fall26.csv */; };
+		C74DE60C2796668800902AF3 /* spring26.csv in Resources */ = {isa = PBXBuildFile; fileRef = C74DE60B2796668800902AF3 /* spring26.csv */; };
+		C74E50EF2794F9FD00655C3F /* spring30.csv in Resources */ = {isa = PBXBuildFile; fileRef = C74E50EE2794F9FD00655C3F /* spring30.csv */; };
+		C74E50F12795445500655C3F /* fall29.csv in Resources */ = {isa = PBXBuildFile; fileRef = C74E50F02795445500655C3F /* fall29.csv */; };
+		C74E50F32795446F00655C3F /* spring29.csv in Resources */ = {isa = PBXBuildFile; fileRef = C74E50F22795446F00655C3F /* spring29.csv */; };
+		C74E50F52795448300655C3F /* fall28.csv in Resources */ = {isa = PBXBuildFile; fileRef = C74E50F42795448300655C3F /* fall28.csv */; };
+		C74E50F72795449800655C3F /* spring28.csv in Resources */ = {isa = PBXBuildFile; fileRef = C74E50F62795449800655C3F /* spring28.csv */; };
 		C7D4E2B92790536A00B8C972 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D4E2B82790536A00B8C972 /* AppDelegate.swift */; };
 		C7D4E2BB2790536A00B8C972 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D4E2BA2790536A00B8C972 /* SceneDelegate.swift */; };
 		C7D4E2BD2790536A00B8C972 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D4E2BC2790536A00B8C972 /* ViewController.swift */; };
 		C7D4E2C02790536A00B8C972 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7D4E2BE2790536A00B8C972 /* Main.storyboard */; };
 		C7D4E2C22790537000B8C972 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7D4E2C12790537000B8C972 /* Assets.xcassets */; };
 		C7D4E2C52790537000B8C972 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7D4E2C32790537000B8C972 /* LaunchScreen.storyboard */; };
+		C7D4E2CD279056C300B8C972 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D4E2CC279056C300B8C972 /* QuizViewController.swift */; };
+		C7D4E2CF279056CF00B8C972 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D4E2CE279056CE00B8C972 /* ScoreViewController.swift */; };
+		C7D4E2D1279056E600B8C972 /* quiz1.csv in Resources */ = {isa = PBXBuildFile; fileRef = C7D4E2D0279056E600B8C972 /* quiz1.csv */; };
+		C7D4E2D5279058EC00B8C972 /* correct.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D4E2D3279058EC00B8C972 /* correct.png */; };
+		C7D4E2D6279058EC00B8C972 /* incorrect.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D4E2D4279058EC00B8C972 /* incorrect.png */; };
+		C7D4E2EA2790696700B8C972 /* 基本情報.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D4E2E52790696700B8C972 /* 基本情報.png */; };
+		C7D4E2EB2790696700B8C972 /* FE.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D4E2E62790696700B8C972 /* FE.png */; };
+		C7D4E2EC2790696700B8C972 /* o9rQLwH6a5SijkM1642082597_1642082600.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D4E2E72790696700B8C972 /* o9rQLwH6a5SijkM1642082597_1642082600.png */; };
+		C7D4E2ED2790696700B8C972 /* appIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D4E2E82790696700B8C972 /* appIcon.png */; };
+		C7D4E2EE2790696700B8C972 /* launchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D4E2E92790696700B8C972 /* launchImage.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		58EAFC706B452BA7456819FF /* Pods-FEQuiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FEQuiz.debug.xcconfig"; path = "Target Support Files/Pods-FEQuiz/Pods-FEQuiz.debug.xcconfig"; sourceTree = "<group>"; };
+		67F0AEB963F44761A87D659D /* Pods-FEQuiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FEQuiz.release.xcconfig"; path = "Target Support Files/Pods-FEQuiz/Pods-FEQuiz.release.xcconfig"; sourceTree = "<group>"; };
+		73A1E778969ABFC6D313A67C /* Pods_FEQuiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FEQuiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C73E767E279161FA00263402 /* QuizTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizTestViewController.swift; sourceTree = "<group>"; };
+		C73E76862791CEAA00263402 /* quiz2.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz2.csv; sourceTree = "<group>"; };
+		C73E768A2791CEC700263402 /* quiz4.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz4.csv; sourceTree = "<group>"; };
+		C73E768C2791CF1600263402 /* SelectQuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectQuizViewController.swift; sourceTree = "<group>"; };
+		C73E768E2791D3AF00263402 /* quiz3.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz3.csv; sourceTree = "<group>"; };
+		C73E76902791D3CA00263402 /* quiz.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz.csv; sourceTree = "<group>"; };
+		C7406D982797A7D3009140C3 /* fall25.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = fall25.csv; sourceTree = "<group>"; };
+		C7406D9A2797A7E6009140C3 /* spring25.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = spring25.csv; sourceTree = "<group>"; };
+		C7406D9C2797A7F4009140C3 /* fall24.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = fall24.csv; sourceTree = "<group>"; };
+		C7406D9E2797A802009140C3 /* spring24.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = spring24.csv; sourceTree = "<group>"; };
+		C7406DA02798337E009140C3 /* fall23.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = fall23.csv; sourceTree = "<group>"; };
+		C7406DA22798338E009140C3 /* special23.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = special23.csv; sourceTree = "<group>"; };
+		C7406DA42798339F009140C3 /* fall22.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = fall22.csv; sourceTree = "<group>"; };
+		C7406DA6279833AD009140C3 /* spring22.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = spring22.csv; sourceTree = "<group>"; };
+		C7479FC82793C0F900E44912 /* fall1.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = fall1.csv; sourceTree = "<group>"; };
+		C7479FCA27942E5400E44912 /* spring31.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = spring31.csv; sourceTree = "<group>"; };
+		C7479FCC27946B3300E44912 /* fall30.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = fall30.csv; sourceTree = "<group>"; };
+		C74A55742798F7D600CC341F /* fall21.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = fall21.csv; sourceTree = "<group>"; };
+		C74A55762799069B00CC341F /* spring21.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = spring21.csv; sourceTree = "<group>"; };
+		C74DE6052796664700902AF3 /* fall27.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = fall27.csv; sourceTree = "<group>"; };
+		C74DE6072796666300902AF3 /* spring27.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = spring27.csv; sourceTree = "<group>"; };
+		C74DE6092796667600902AF3 /* fall26.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = fall26.csv; sourceTree = "<group>"; };
+		C74DE60B2796668800902AF3 /* spring26.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = spring26.csv; sourceTree = "<group>"; };
+		C74E50EE2794F9FD00655C3F /* spring30.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = spring30.csv; sourceTree = "<group>"; };
+		C74E50F02795445500655C3F /* fall29.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = fall29.csv; sourceTree = "<group>"; };
+		C74E50F22795446F00655C3F /* spring29.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = spring29.csv; sourceTree = "<group>"; };
+		C74E50F42795448300655C3F /* fall28.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = fall28.csv; sourceTree = "<group>"; };
+		C74E50F62795449800655C3F /* spring28.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = spring28.csv; sourceTree = "<group>"; };
 		C7D4E2B52790536A00B8C972 /* FEQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FEQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7D4E2B82790536A00B8C972 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7D4E2BA2790536A00B8C972 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +94,16 @@
 		C7D4E2C12790537000B8C972 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7D4E2C42790537000B8C972 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7D4E2C62790537000B8C972 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7D4E2CC279056C300B8C972 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		C7D4E2CE279056CE00B8C972 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		C7D4E2D0279056E600B8C972 /* quiz1.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz1.csv; sourceTree = "<group>"; };
+		C7D4E2D3279058EC00B8C972 /* correct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = correct.png; sourceTree = "<group>"; };
+		C7D4E2D4279058EC00B8C972 /* incorrect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = incorrect.png; sourceTree = "<group>"; };
+		C7D4E2E52790696700B8C972 /* 基本情報.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "基本情報.png"; sourceTree = "<group>"; };
+		C7D4E2E62790696700B8C972 /* FE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FE.png; sourceTree = "<group>"; };
+		C7D4E2E72790696700B8C972 /* o9rQLwH6a5SijkM1642082597_1642082600.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = o9rQLwH6a5SijkM1642082597_1642082600.png; sourceTree = "<group>"; };
+		C7D4E2E82790696700B8C972 /* appIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appIcon.png; sourceTree = "<group>"; };
+		C7D4E2E92790696700B8C972 /* launchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchImage.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +111,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C9E57FBDAD7BB5EAC48200A /* Pods_FEQuiz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1AA7A2BF637BFA8A384B269D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73A1E778969ABFC6D313A67C /* Pods_FEQuiz.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C7D4E2AC2790536A00B8C972 = {
 			isa = PBXGroup;
 			children = (
 				C7D4E2B72790536A00B8C972 /* FEQuiz */,
 				C7D4E2B62790536A00B8C972 /* Products */,
+				EFD6B5AD82D169E548EB8BB8 /* Pods */,
+				1AA7A2BF637BFA8A384B269D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +150,83 @@
 				C7D4E2B82790536A00B8C972 /* AppDelegate.swift */,
 				C7D4E2BA2790536A00B8C972 /* SceneDelegate.swift */,
 				C7D4E2BC2790536A00B8C972 /* ViewController.swift */,
+				C7D4E2CC279056C300B8C972 /* QuizViewController.swift */,
+				C7D4E2CE279056CE00B8C972 /* ScoreViewController.swift */,
+				C73E768C2791CF1600263402 /* SelectQuizViewController.swift */,
+				C73E767E279161FA00263402 /* QuizTestViewController.swift */,
+				C7D4E2E32790696700B8C972 /* launchImageFE */,
+				C7D4E2D2279058EC00B8C972 /* image */,
+				C7D4E2D0279056E600B8C972 /* quiz1.csv */,
+				C73E76862791CEAA00263402 /* quiz2.csv */,
+				C73E768E2791D3AF00263402 /* quiz3.csv */,
+				C73E768A2791CEC700263402 /* quiz4.csv */,
+				C73E76902791D3CA00263402 /* quiz.csv */,
+				C7479FC82793C0F900E44912 /* fall1.csv */,
+				C7479FCA27942E5400E44912 /* spring31.csv */,
+				C7479FCC27946B3300E44912 /* fall30.csv */,
+				C74E50EE2794F9FD00655C3F /* spring30.csv */,
+				C74E50F02795445500655C3F /* fall29.csv */,
+				C74E50F22795446F00655C3F /* spring29.csv */,
+				C74E50F42795448300655C3F /* fall28.csv */,
+				C74E50F62795449800655C3F /* spring28.csv */,
+				C74DE6052796664700902AF3 /* fall27.csv */,
+				C74DE6072796666300902AF3 /* spring27.csv */,
+				C74DE6092796667600902AF3 /* fall26.csv */,
+				C74DE60B2796668800902AF3 /* spring26.csv */,
+				C7406D982797A7D3009140C3 /* fall25.csv */,
+				C7406D9A2797A7E6009140C3 /* spring25.csv */,
+				C7406D9C2797A7F4009140C3 /* fall24.csv */,
+				C7406D9E2797A802009140C3 /* spring24.csv */,
+				C7406DA02798337E009140C3 /* fall23.csv */,
+				C7406DA22798338E009140C3 /* special23.csv */,
+				C7406DA42798339F009140C3 /* fall22.csv */,
+				C7406DA6279833AD009140C3 /* spring22.csv */,
+				C74A55742798F7D600CC341F /* fall21.csv */,
+				C74A55762799069B00CC341F /* spring21.csv */,
 				C7D4E2BE2790536A00B8C972 /* Main.storyboard */,
 				C7D4E2C12790537000B8C972 /* Assets.xcassets */,
 				C7D4E2C32790537000B8C972 /* LaunchScreen.storyboard */,
 				C7D4E2C62790537000B8C972 /* Info.plist */,
 			);
 			path = FEQuiz;
+			sourceTree = "<group>";
+		};
+		C7D4E2D2279058EC00B8C972 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				C7D4E2D3279058EC00B8C972 /* correct.png */,
+				C7D4E2D4279058EC00B8C972 /* incorrect.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		C7D4E2E32790696700B8C972 /* launchImageFE */ = {
+			isa = PBXGroup;
+			children = (
+				C7D4E2E42790696700B8C972 /* beforeImage */,
+				C7D4E2E82790696700B8C972 /* appIcon.png */,
+				C7D4E2E92790696700B8C972 /* launchImage.png */,
+			);
+			path = launchImageFE;
+			sourceTree = "<group>";
+		};
+		C7D4E2E42790696700B8C972 /* beforeImage */ = {
+			isa = PBXGroup;
+			children = (
+				C7D4E2E52790696700B8C972 /* 基本情報.png */,
+				C7D4E2E62790696700B8C972 /* FE.png */,
+				C7D4E2E72790696700B8C972 /* o9rQLwH6a5SijkM1642082597_1642082600.png */,
+			);
+			path = beforeImage;
+			sourceTree = "<group>";
+		};
+		EFD6B5AD82D169E548EB8BB8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58EAFC706B452BA7456819FF /* Pods-FEQuiz.debug.xcconfig */,
+				67F0AEB963F44761A87D659D /* Pods-FEQuiz.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +236,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C7D4E2C92790537000B8C972 /* Build configuration list for PBXNativeTarget "FEQuiz" */;
 			buildPhases = (
+				3447AD4CFCAD618A4E02FF83 /* [CP] Check Pods Manifest.lock */,
 				C7D4E2B12790536A00B8C972 /* Sources */,
 				C7D4E2B22790536A00B8C972 /* Frameworks */,
 				C7D4E2B32790536A00B8C972 /* Resources */,
+				82BCC6BD3C7C74EE0D7F622E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,13 +289,89 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7D4E2D5279058EC00B8C972 /* correct.png in Resources */,
+				C74DE60C2796668800902AF3 /* spring26.csv in Resources */,
+				C74A55752798F7D600CC341F /* fall21.csv in Resources */,
+				C7D4E2EA2790696700B8C972 /* 基本情報.png in Resources */,
+				C74DE6082796666300902AF3 /* spring27.csv in Resources */,
+				C74E50F72795449800655C3F /* spring28.csv in Resources */,
+				C73E76912791D3CA00263402 /* quiz.csv in Resources */,
+				C7406D992797A7D4009140C3 /* fall25.csv in Resources */,
+				C7479FC92793C0F900E44912 /* fall1.csv in Resources */,
+				C7406DA12798337E009140C3 /* fall23.csv in Resources */,
+				C7479FCD27946B3300E44912 /* fall30.csv in Resources */,
+				C73E76872791CEAA00263402 /* quiz2.csv in Resources */,
+				C7D4E2D6279058EC00B8C972 /* incorrect.png in Resources */,
 				C7D4E2C52790537000B8C972 /* LaunchScreen.storyboard in Resources */,
+				C74E50EF2794F9FD00655C3F /* spring30.csv in Resources */,
+				C7D4E2ED2790696700B8C972 /* appIcon.png in Resources */,
+				C7D4E2EB2790696700B8C972 /* FE.png in Resources */,
 				C7D4E2C22790537000B8C972 /* Assets.xcassets in Resources */,
+				C7479FCB27942E5500E44912 /* spring31.csv in Resources */,
+				C74E50F32795446F00655C3F /* spring29.csv in Resources */,
+				C73E768B2791CEC700263402 /* quiz4.csv in Resources */,
+				C7406DA32798338E009140C3 /* special23.csv in Resources */,
+				C7406DA52798339F009140C3 /* fall22.csv in Resources */,
+				C7D4E2EE2790696700B8C972 /* launchImage.png in Resources */,
+				C7406D9F2797A802009140C3 /* spring24.csv in Resources */,
+				C7406D9B2797A7E6009140C3 /* spring25.csv in Resources */,
 				C7D4E2C02790536A00B8C972 /* Main.storyboard in Resources */,
+				C74DE60A2796667600902AF3 /* fall26.csv in Resources */,
+				C7406DA7279833AD009140C3 /* spring22.csv in Resources */,
+				C7406D9D2797A7F4009140C3 /* fall24.csv in Resources */,
+				C74A55772799069B00CC341F /* spring21.csv in Resources */,
+				C73E768F2791D3AF00263402 /* quiz3.csv in Resources */,
+				C7D4E2D1279056E600B8C972 /* quiz1.csv in Resources */,
+				C74DE6062796664700902AF3 /* fall27.csv in Resources */,
+				C74E50F52795448300655C3F /* fall28.csv in Resources */,
+				C74E50F12795445500655C3F /* fall29.csv in Resources */,
+				C7D4E2EC2790696700B8C972 /* o9rQLwH6a5SijkM1642082597_1642082600.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3447AD4CFCAD618A4E02FF83 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FEQuiz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82BCC6BD3C7C74EE0D7F622E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FEQuiz/Pods-FEQuiz-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FEQuiz/Pods-FEQuiz-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FEQuiz/Pods-FEQuiz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C7D4E2B12790536A00B8C972 /* Sources */ = {
@@ -140,7 +380,11 @@
 			files = (
 				C7D4E2BD2790536A00B8C972 /* ViewController.swift in Sources */,
 				C7D4E2B92790536A00B8C972 /* AppDelegate.swift in Sources */,
+				C7D4E2CF279056CF00B8C972 /* ScoreViewController.swift in Sources */,
+				C73E767F279161FA00263402 /* QuizTestViewController.swift in Sources */,
 				C7D4E2BB2790536A00B8C972 /* SceneDelegate.swift in Sources */,
+				C7D4E2CD279056C300B8C972 /* QuizViewController.swift in Sources */,
+				C73E768D2791CF1600263402 /* SelectQuizViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +528,7 @@
 		};
 		C7D4E2CA2790537000B8C972 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58EAFC706B452BA7456819FF /* Pods-FEQuiz.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -306,12 +551,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		C7D4E2CB2790537000B8C972 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67F0AEB963F44761A87D659D /* Pods-FEQuiz.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -334,7 +580,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
